@@ -20,22 +20,28 @@
             color: #FFF; /* Weißer Text für guten Kontrast */
             padding: 20px; /* Innenabstand innerhalb der Kopfzeile */
             text-align: center; /* Zentriert den Text in der Kopfzeile */
-            position: relative; /* Ermöglicht die Positionierung des rechten Textblocks */
-        }
-        h1 {
-            text-align: center; /* Zentriert den Haupttitel */
-            margin: 0; /* Entfernt die Standardmargen */
-        }
-t-style: italic;
         }
         main {
             padding: 20px; /* Innenabstand für den Hauptinhalt */
+            padding-bottom: 140px; /* Zusätzlicher Abstand nach unten, um den Footer nicht zu verdecken */
             max-width: 800px; /* Begrenzt die Breite des Hauptinhalts */
             margin: auto; /* Zentriert den Hauptinhalt */
-            padding-bottom: 160px; /* Zusätzlicher Abstand nach unten, um den Footer nicht zu verdecken */
+        }
+        h1 {
+            color: #FFF; /* Weiße Hauptüberschrift für guten Kontrast */
         }
         h2 {
-            color: #B37F4E; /* Farbe passend zum Hintergrund des Headers */
+            color: #8A5636; /* Warme Farbe für die Unterüberschriften */
+        }
+        a {
+            color: #8A5636; /* Linkfarbe passend zu den Unterüberschriften */
+            text-decoration: none; /* Keine Unterstreichung für Links */
+        }
+        a:hover {
+            text-decoration: underline; /* Unterstreichung bei Hover-Effekt */
+        }
+        .content {
+            margin-bottom: 20px; /* Abstand zwischen den Inhaltsblöcken */
         }
         .address {
             text-align: left; /* Linksbündiger Text im Adressblock */
@@ -60,33 +66,31 @@ t-style: italic;
     <header>
         <h1>Pferdezucht</h1>
     </header>
-    <!-- Hauptinhalt der Seite -->
-    <main>
-        <section class="content">
-            <h2>Unsere Pferdezucht</h2>
-            <p>Das Landgestüt Feldheim-Eichenried ist stolz auf seine langjährige Tradition in der Zucht von erstklassigen Warmblutpferden. Unsere weitläufigen Weiden und erstklassigen Stallungen bieten ideale Bedingungen für die Aufzucht und Ausbildung unserer Pferde.</p>
+<!-- Hauptinhalt der Seite -->
+<main>
+    <section class="content">
+        <h2>Unsere Pferdezucht</h2>
+        <p>Das Landgestüt Feldheim-Eichenried ist stolz auf seine langjährige Tradition in der Zucht von erstklassigen Warmblutpferden. Unsere weitläufigen Weiden und erstklassigen Stallungen bieten ideale Bedingungen für die Aufzucht und Ausbildung unserer Pferde.</p>
 
-            <p>Unsere Hengste und Stuten zeichnen sich durch ihre hervorragende Genetik, ihren Charakter und ihre Leistungsfähigkeit aus. Wir legen großen Wert auf eine artgerechte Haltung und individuelle Förderung jedes einzelnen Pferdes. Unsere erfahrenen Züchter und Trainer arbeiten eng zusammen, um sicherzustellen, dass unsere Pferde die bestmögliche Betreuung und Ausbildung erhalten.</p>
+        <p>Unsere Hengste und Stuten zeichnen sich durch ihre hervorragende Genetik, ihren Charakter und ihre Leistungsfähigkeit aus. Wir legen großen Wert auf eine artgerechte Haltung und individuelle Förderung jedes einzelnen Pferdes. Unsere erfahrenen Züchter und Trainer arbeiten eng zusammen, um sicherzustellen, dass unsere Pferde die bestmögliche Betreuung und Ausbildung erhalten.</p>
 
-            <p>Zu unseren Zuchterfolgen zählen zahlreiche preisgekrönte Pferde, die sowohl national als auch international in verschiedenen Disziplinen wie Dressur, Springreiten und Vielseitigkeit erfolgreich sind. Unsere Nachzucht genießt einen exzellenten Ruf und ist bei Pferdeliebhabern und -sportlern gleichermaßen beliebt.</p>
+        <p>Zu unseren Zuchterfolgen zählen zahlreiche preisgekrönte Pferde, die sowohl national als auch international in verschiedenen Disziplinen wie Dressur, Springreiten und Vielseitigkeit erfolgreich sind. Unsere Nachzucht genießt einen exzellenten Ruf und ist bei Pferdeliebhabern und -sportlern gleichermaßen beliebt.</p>
 
-            <p>Wir bieten regelmäßige Führungen durch unsere Anlagen an, bei denen Besucher einen Einblick in unsere Zuchtarbeit und den Alltag auf dem Gestüt erhalten können. Darüber hinaus veranstalten wir jährlich mehrere Events, bei denen unsere Pferde in verschiedenen Wettbewerben und Vorführungen ihr Können zeigen.</p>
+        <p>Wir bieten regelmäßige Führungen durch unsere Anlagen an, bei denen Besucher einen Einblick in unsere Zuchtarbeit und den Alltag auf dem Gestüt erhalten können. Darüber hinaus veranstalten wir jährlich mehrere Events, bei denen unsere Pferde in verschiedenen Wettbewerben und Vorführungen ihr Können zeigen.</p>
 
-            <p>Besuchen Sie uns und erfahren Sie mehr über unsere Leidenschaft für die Pferdezucht und die Hingabe, mit der wir unsere Tiere betreuen. Wir freuen uns, Ihnen unser Gestüt und unsere prächtigen Pferde vorstellen zu dürfen.</p>
-        </section>
-    </main>
-    <!-- Adressblock -->
-    <div class="address" style="text-align: left; margin-top: 100px;">
-        <p>Landgestüt Feldheim-Eichenried<br>
-        Zu den Wiesen 1-5<br>
-        27367 Eichenried<br>
-        Deutschland<br>
-        Email: info@feldheim-eichenried.de<br>
-        Für telefonischen Kontakt, bitte per Email anfragen.</p>
-    </div>
-    <!-- Fußzeile der Seite -->
-    <footer style="background-color: #B37F4E; text-align: center; width: 100%; position: fixed; bottom: 0; left: 0;">
-        <p>&copy; 2002 Landgestüt Feldheim-Eichenried</p>
-    </footer>
-</body>
-</html>
+        <p>Besuchen Sie uns und erfahren Sie mehr über unsere Leidenschaft für die Pferdezucht und die Hingabe, mit der wir unsere Tiere betreuen. Wir freuen uns, Ihnen unser Gestüt und unsere prächtigen Pferde vorstellen zu dürfen.</p>
+    </section>
+</main>
+<!-- Adressblock -->
+<div class="address" style="text-align: left; margin-top: 100px;">
+    <p>Landgestüt Feldheim-Eichenried<br>
+    Zu den Wiesen 1-5<br>
+    27367 Eichenried<br>
+    Deutschland<br>
+    Email: info@feldheim-eichenried.de<br>
+    Für telefonischen Kontakt, bitte per Email anfragen.</p>
+</div>
+<!-- Fußzeile der Seite -->
+<footer style="background-color: #B37F4E; text-align: center; width: 100%; position: fixed; bottom: 0; left: 0;">
+    <p>&copy; 2002 Landgestüt Feldheim-Eichenried</p>
+</footer>
